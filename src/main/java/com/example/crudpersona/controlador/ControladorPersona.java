@@ -5,6 +5,8 @@ import com.example.crudpersona.servicios.InterfasServiciosPersona;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 @RestController
 @RequestMapping("api")
 public class ControladorPersona {
@@ -16,7 +18,7 @@ public class ControladorPersona {
         return servicio.listar();
     }
     @GetMapping(value = "/listarPersonas/{id}")
-    public Persona listarPersonas(@PathVariable Integer id){
+    public Optional<Persona> listarPersonas(@PathVariable Integer id){
         return servicio.listarid(id);
     }
     @PostMapping(value ="/guardarPersona")
