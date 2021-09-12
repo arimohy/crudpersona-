@@ -31,7 +31,7 @@ db_persona
 ![mysql](img/5.png)
 ### Ejecucion 🔧
 
-1. _Para ejecutar debe corre la clase CrudpersonaApplication_
+1. _Para ejecutar debe corre la clase CrudpersonaApplication como se ve en la sigiente imagen:_
    ![Imagen](img/2.png)
 
 2. _Al terminar la ejecucion te dara el puerto en el que corre_
