@@ -33,6 +33,7 @@ db_persona
 
 1. _Para ejecutar debe corre la clase CrudpersonaApplication_
    ![Imagen](img/2.png)
+
 2. _Al terminar la ejecucion te dara el puerto en el que corre_
    ![Imagen](img/3.png)
 3. Lo que significa que nuestra api correra en esta direccion:(en caso de ser otra cambiar el puerto del localhost al que indica)
@@ -88,7 +89,7 @@ db_persona
   ![post](img/12.png)
 ## RESULTADOS
 Se pudo desarrollar todos los metodos del crud pedidos
-espero que haya dio de su agrado️
+espero que haya sido de su agrado️
 
 ---
 ⌨️ con ❤️ por [yhomira](https://github.com/arimohy) 😊
