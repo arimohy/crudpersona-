@@ -15,6 +15,10 @@ public class ControladorPersona {
     public Iterable<Persona>listarPersonas(){
         return servicio.listar();
     }
+    @GetMapping(value = "/listarPersonas/{id}")
+    public Persona listarPersonas(@PathVariable Integer id){
+        return servicio.listarid(id);
+    }
     @PostMapping(value ="/guardarPersona")
     public Persona guardarPersona(@RequestBody Persona persona){
         return servicio.guardar(persona);
